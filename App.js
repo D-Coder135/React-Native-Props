@@ -17,6 +17,12 @@ export default function App() {
       <Card style = {{marginBottom: 20}}>
         <FirstComp />
         </Card>
+        <Card style = {{marginBottom: 20}}>
+        <FirstComp />
+        </Card>
+        <Card style = {{marginBottom: 20}}>
+        <FirstComp />
+        </Card>
     </View>
   );
 }
