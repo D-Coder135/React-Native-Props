@@ -15,7 +15,7 @@ export default function App() {
         React-Props
       </Text>
       <Card>
-        <AssetExample />
+        <FirstComp />
       </Card>
     </View>
   );
