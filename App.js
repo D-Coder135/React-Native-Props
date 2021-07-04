@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-        
+        React-Props
       </Text>
       <Card>
         <AssetExample />
