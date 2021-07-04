@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 
-export default function FirstComp(Props) {
+export default function FirstComp(props) {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-        Name
+        {props.name}
       </Text>
       {/* <Image style={styles.logo} source={require('../assets/favicon.png')} /> */}
       <Image style = {styles.logo} source = { require('../assets/male.jpg')}/>
