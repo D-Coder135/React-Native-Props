@@ -20,9 +20,6 @@ export default function App() {
         <Card style = {{marginBottom: 20}}>
         <FirstComp name = 'Devansh' pic = 'https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-business-male-icon-vector-png-image_916468.jpg'/>
         </Card>
-        <Card style = {{marginBottom: 20}}>
-        <FirstComp name = 'DeCoder' pic = 'https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-business-male-icon-vector-png-image_916468.jpg'/>
-        </Card>
     </View>
   );
 }
