@@ -7,10 +7,10 @@ export default class SecondComp extends React.Component {
         return (
             <View style={styles.container}>
               <Text style={styles.paragraph}>
-                {props.name}
+                {this.props.name}
               </Text>
               {/* <Image style={styles.logo} source={require('../assets/favicon.png')} /> */}
-              <Image style = {styles.logo} source = {{uri: props.pic}}/>
+              <Image style = {styles.logo} source = {{uri: this.props.pic}}/>
             </View>
           );
     }
