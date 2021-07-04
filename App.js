@@ -12,9 +12,7 @@ export default function App() {
       <Text style={styles.paragraph}>
         React-Props
       </Text>
-      <Card>
         <FirstComp />
-      </Card>
     </View>
   );
 }
