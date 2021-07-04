@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 
+// This component is made using Function. i.e. Functional Component.
 export default function FirstComp(props) {
   return (
     <View style={styles.container}>
