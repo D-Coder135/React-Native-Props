@@ -7,7 +7,7 @@ export default function FirstComp() {
       <Text style={styles.paragraph}>
         Name
       </Text>
-      <Image style={styles.logo} source={require('../assets/favicon.png')} />
+      {/* <Image style={styles.logo} source={require('../assets/favicon.png')} /> */}
     </View>
   );
 }
