@@ -15,13 +15,13 @@ export default function App() {
         React-Props
       </Text>
       <Card style = {{marginBottom: 20}}>
-        <FirstComp />
+        <FirstComp name = 'Akanksha' pic = '../assets/female.png'/>
         </Card>
         <Card style = {{marginBottom: 20}}>
-        <FirstComp />
+        <FirstComp name = 'Devansh' pic = '../assets/male.jpg'/>
         </Card>
         <Card style = {{marginBottom: 20}}>
-        <FirstComp />
+        <FirstComp name = 'DeCoder' pic = '../assets/male.jpg'/>
         </Card>
     </View>
   );
