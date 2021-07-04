@@ -4,6 +4,7 @@ import Constants from 'expo-constants';
 
 // You can import from local files
 import FirstComp from './components/FirstComp';
+import SecondComp from './components/SecondComp';
 
 import { Card } from 'react-native-paper';
 
