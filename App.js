@@ -5,6 +5,8 @@ import Constants from 'expo-constants';
 // You can import from local files
 import FirstComp from './components/FirstComp';
 
+import { Card } from 'react-native-paper';
+
 
 export default function App() {
   return (
