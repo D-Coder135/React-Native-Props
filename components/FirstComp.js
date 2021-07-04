@@ -8,7 +8,7 @@ export default function FirstComp() {
         Name
       </Text>
       {/* <Image style={styles.logo} source={require('../assets/favicon.png')} /> */}
-      <Image />
+      <Image style = {styles.logo}/>
     </View>
   );
 }
