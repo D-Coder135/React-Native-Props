@@ -14,7 +14,7 @@ export default function App() {
       <Text style={styles.paragraph}>
         React-Props
       </Text>
-      <Card>
+      <Card style = {{marginBottom: 20}}>
         <FirstComp />
         </Card>
     </View>
