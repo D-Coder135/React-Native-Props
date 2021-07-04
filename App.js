@@ -18,7 +18,7 @@ export default function App() {
         <FirstComp name = 'Using First Component(Functional)' pic = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbePIySXJg48soHAwNeEnSZBonIBs2Z10RJkOmGqqVWLzpPPY8yjwB7XM6r0xYpa1RgQ&usqp=CAU'/>
         </Card>
         <Card style = {{marginBottom: 20}}>
-        <FirstComp name = 'Devansh' pic = 'https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-business-male-icon-vector-png-image_916468.jpg'/>
+        <SecondComp name = 'Devansh' pic = 'https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-business-male-icon-vector-png-image_916468.jpg'/>
         </Card>
     </View>
   );
