@@ -8,7 +8,7 @@ export default function FirstComp(props) {
         {props.name}
       </Text>
       {/* <Image style={styles.logo} source={require('../assets/favicon.png')} /> */}
-      <Image style = {styles.logo} source = {}/>
+      <Image style = {styles.logo} source = {{uri: props.pic}}/>
     </View>
   );
 }
